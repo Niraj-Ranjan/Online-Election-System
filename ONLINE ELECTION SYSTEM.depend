@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1482656427 source:c:\users\niraj\desktop\online election system\main.cpp
+	<iostream>
+	<stdio.h>
+
+1484765178 source:c:\users\niraj\desktop\c++ program\online election system\main.cpp
+	<iostream>
+	<stdio.h>
+

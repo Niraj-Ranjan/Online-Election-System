@@ -1,0 +1,47 @@
+package exception;
+
+import java.util.Scanner;
+
+class mean implements excephand
+
+{
+	
+	public void findmean()
+	
+	{
+		
+		Scanner sc=new Scanner(System.in);
+			int count=0;
+			boolean t=true;
+			int sum=0;
+			System.out.println("enter array elements");
+			try {
+			while(t)
+			{	
+				sum=sum+sc.nextInt();
+				count++;
+			}
+			} catch (Exception e) {
+				System.out.println("it is not number");
+			System.out.println("mean is");
+			int mean;
+			mean=sum/count;
+			System.out.println(mean);
+			
+		
+		}
+		
+		
+	}
+	}
+
+public class exceptionhand {
+
+	public static void main(String[] args) {
+
+mean m=new mean();
+m.findmean();
+
+	}
+
+}
